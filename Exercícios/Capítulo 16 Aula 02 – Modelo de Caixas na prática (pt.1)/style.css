@@ -1,0 +1,27 @@
+#teste{
+    text-align: center;
+    background-color: lightgrey;          
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid greenyellow;
+
+    padding: 10px;
+
+    /*margin:10px 10px 24px 10px;*/
+
+    margin:auto;
+    
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+
+    border: 1px solid darkred;
+
+    padding:auto;
+
+
+}

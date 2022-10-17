@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo-site-icon.ico" type="image/x-icon">
+    <title>Grouping Tags</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+       header{
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        nav{
+            background-color: rgb(99, 99, 99);
+            padding: 3px;
+            box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.5);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 5px;
+            
+        }
+
+        nav > a:hover {
+            color: rgb(157, 175, 92);
+            text-decoration: underline;
+            padding: 5px;
+            margin: 2px;
+        }
+
+        main{
+            background-color: whitesmoke;
+            margin: 10px;
+            padding:10px;
+            border-radius: 0px 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
+        }
+
+        article>p{
+            text-align: justify;
+        }
+
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article>aside{
+            background-color: rgb(180, 174, 174);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        footer>p{
+            margin: 0px;
+            text-align: center;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+           background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <H1>Meu site</H1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam nesciunt consequatur, quasi non consectetur eaque inventore modi repellat maiores! Itaque iusto corporis perspiciatis alias voluptatum aliquid ratione esse tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, expedita voluptatem ex, adipisci molestiae nostrum dolore iure, dolorem sint facilis error veniam ab vero sapiente deleniti ipsa facere voluptas et.</p>
+                <aside>
+                    <p>Artigo escrito por sla quem</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por André Nogueira</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

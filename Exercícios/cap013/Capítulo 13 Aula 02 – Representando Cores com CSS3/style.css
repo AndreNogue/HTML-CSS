@@ -1,0 +1,10 @@
+/* height: 100vh; É a altura do conteúdo*/
+body{ 
+    background-image: linear-gradient(220deg, #4B67D4, #6E3FBC, #B9328C, #DE346A,#EC4C4E, #FB882F, #FED372);
+    height: 100vh;
+}
+h1{
+    color: #000000;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
